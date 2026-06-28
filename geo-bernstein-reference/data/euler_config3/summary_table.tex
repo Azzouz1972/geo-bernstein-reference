@@ -1,0 +1,14 @@
+\begin{table}
+\caption{R2 Euler CONFIG-3 summary over five seeds.}
+\label{tab:r2_euler_config3_summary}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+method & rho_L1_mean & rho_L1_std & rho_L2_mean & rho_L2_std & pressure_L1_mean & pressure_L1_std & shock_rho_L1_mean & shock_rho_L1_std & front_recall_mean & front_precision_mean \\
+\midrule
+Bernstein-OPT & 0.1497 & 0.0112 & 0.2075 & 0.01176 & 0.1888 & 0.02136 & 0.299 & 0.01837 & 0.4229 & 0.4611 \\
+G-PINN-GMM & 0.1464 & 0.016 & 0.2088 & 0.01711 & 0.1827 & 0.02141 & 0.3194 & 0.02443 & 0.4344 & 0.4736 \\
+RAR-PINN & 0.1762 & 0.01708 & 0.2463 & 0.01625 & 0.2227 & 0.0588 & 0.3172 & 0.03463 & 0.3562 & 0.3884 \\
+Vanilla PINN & 0.1072 & 0.01283 & 0.1557 & 0.01323 & 0.1466 & 0.018 & 0.2315 & 0.02259 & 0.4375 & 0.4771 \\
+\bottomrule
+\end{tabular}
+\end{table}

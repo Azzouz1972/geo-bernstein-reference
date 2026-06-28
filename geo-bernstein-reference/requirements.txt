@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.7
+# NOTE: PyTorch is NOT required. load_pt.py reads .pt checkpoints with a
+# pure-NumPy unpickler, so every result is reproducible without a DL runtime.
